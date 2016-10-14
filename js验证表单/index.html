@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>QQ注册页面信息验证</title>
+		<style type="text/css">
+			div{
+				border: 2px dotted greenyellow;
+				text-align: center;
+                width:400px;
+                margin: 150px auto;
+			}
+			font{
+				font-size: 12px;
+				color:darkslategray;
+			}
+		</style>
+		<script type="text/javascript" src="js/123.js" ></script>
+	</head>
+	<body>
+		<div>
+		<form action="happy.html" method="get" onsubmit="return checkAll()">
+			<h3>您的账户信息：<font>*必填</font></h3>
+			昵&nbsp;&nbsp;称*：<input type="text" id="name" /><br />
+			<font>请输入4-12个字符</font><br />
+			密&nbsp;&nbsp;码*：<input type="password" id="password" /><br />
+			<font>请输入6-12个字符</font><br />
+			确认密码*：<input type="password" id="password2" /><br />
+			<font>请再次输入密码</font><br />
+			<h3>您的个人信息：<font>*必填</font></h3>
+			出生日期：<input type="text" id="brithday" /><br />
+			性&nbsp;&nbsp;别:<input type="radio" name="radio1" value="女" />女
+			<input type="radio" name="radio1" value="男">男<br />
+			邮箱地址*：<input type="text" id="email" /><br /><br />
+			<input type="submit" value="注册" />
+		</form>
+		</div>
+	</body>
+</html>
